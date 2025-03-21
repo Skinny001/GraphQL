@@ -1,0 +1,15 @@
+{
+  "name": "books-project",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "cd server && node server.js",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-graphql": "^0.12.0"
+  }
+}
