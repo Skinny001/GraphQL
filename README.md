@@ -1,4 +1,4 @@
-# Develop a GraphQL server to manage books and authors, enabling querying and mutations.
+# Develop a GraphQL server to manage books and authors, enabling querying and mutations with frontend
 
 git clone 
 # Run them separately for now (simplest approach)
